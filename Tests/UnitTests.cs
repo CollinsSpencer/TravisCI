@@ -106,7 +106,7 @@ namespace TravisCILab
         [Test]
         public void Power_Valid()
         {
-            Assert.AreEqual(1, Program.Power("4", "3"));
+            Assert.AreEqual(1, Program.Power("1", "3"));
             Assert.AreEqual(8, Program.Power("2", "3"));
             Assert.AreEqual(25, Program.Power("5", "2"));
         }
